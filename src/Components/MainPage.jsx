@@ -11,22 +11,22 @@ export default function MainPage(){
     }
 
     return(
-        <div>
-            <div>
-            <h1>React js Hooks</h1>
+        <div className="mainpage-container">
+            <div className="mainPage-sub-container">
+            <h1 className="mainPageHEading">React js Hooks</h1>
             </div>
-            <div>
-            <p>React.js, often referred to as React, is an open-source JavaScript library for building user interfaces. <br />
+            <div className="mainPageSubDiv">
+            <p className="mainPageSubParagraph">React.js, often referred to as React, is an open-source JavaScript library for building user interfaces. <br />
             It was developed by Facebook and is commonly used for creating web applications with dynamic and interactive user interfaces. <br />
              React allows developers to build reusable UI components and efficiently update the user interface when data changes, <br />
              making it a popular choice for building modern web applications.</p>
 
 
-            <h3> Hooks make it easier to write and maintain React code, as they allow you to reuse stateful logic without changing your component's structure into a class.</h3>
+            <h3 className="mainPageSubH3"> Hooks make it easier to write and maintain React code, as they allow you to reuse stateful logic without changing your component's structure into a class.</h3>
             </div>
 
-            <div>
-                <button onClick={UseStatePage} >useState</button>
+            <div className="HooksBtns">
+                <button  onClick={UseStatePage} >useState</button>
             </div>
 
 
