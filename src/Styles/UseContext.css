@@ -1,0 +1,50 @@
+/* Basic styles for the container */
+.ContextContainer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .contextHtag {
+    font-size: 24px;
+    background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  }
+  .contextHtag:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+    
+    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .contextPtag {
+    font-size: 16px;
+    margin: 20px 0;
+  }
+  
+ 
+  .ContextH4Tag {
+    font-size: 18px;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  
+ 
+  .ContextH4Tag:hover {
+    color: #0056b3;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: color 0.3s, transform 0.3s;
+  }
+ 
+  .contextHtag:hover {
+    color: #0056b3;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: color 0.3s, transform 0.3s;
+  }
+  .SyntaxHighlighter {
+   width: auto;
+  }

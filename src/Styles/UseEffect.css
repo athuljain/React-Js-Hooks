@@ -1,0 +1,57 @@
+/* Basic styles for the container */
+.sub-container {
+    text-align: center;
+    padding: 20px;
+    
+  }
+  
+  
+  .main-heading {
+    font-size: 24px;
+    background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+
+  }
+  .main-heading:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .main-paragraph {
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: 400;
+  }
+  
+  /* Styles for the count display and button */
+  .EffectSub {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .Effect-Btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Effect-Btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styles for the code block */
+  .Code {
+    font-size: 18px;
+    margin: 20px;
+  }
+  
+ 
+  

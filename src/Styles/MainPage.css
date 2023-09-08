@@ -1,0 +1,58 @@
+/* Add some basic styles */
+.mainpage-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.mainPage-sub-container {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.mainPage-sub-container:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.mainPageHEading {
+  font-size: 24px;
+}
+
+.mainPageSubDiv {
+  margin: 20px 0;
+}
+
+.mainPageSubParagraph {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mainPageSubH3 {
+  margin-top: 100px;
+  font-size: 25px;
+  color: #007bff;
+}
+
+/* Apply styles to buttons */
+.HooksBtns {
+  margin-top: 100px;
+}
+
+button {
+  background-color: #1d3f63;
+  color: #f4f1f1;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
