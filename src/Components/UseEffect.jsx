@@ -34,7 +34,7 @@ export default function UseEffect() {
 
     <div>
 
-<p>Code</p>
+<p className='Code'>Code :</p>
 
 <SyntaxHighlighter language="javascript" style={dracula}>
 {`

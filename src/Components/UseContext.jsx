@@ -16,10 +16,10 @@ function MyComponent() {
   `;
 
   return (
-    <div>
-      <div>
-        <h1>useContext Hook</h1>
-        <p>The useContext hook is a feature provided by React,<br />
+    <div className='ContextContainer'>
+      <div className='SubContainerContext'>
+        <h1 className='contextHtag'>useContext Hook</h1>
+        <p className='contextPtag'>The useContext hook is a feature provided by React,<br />
           a popular JavaScript library for building user interfaces. <br />
           It allows you to access and consume data from a React context within a functional component.<br />
           Context is primarily used for passing data that needs to be accessible to many components <br />
@@ -27,8 +27,8 @@ function MyComponent() {
           at each level.</p>
       </div>
 
-      <div>
-        <h4>Creating a Context: <br />
+      <div className='ContextSubDiv'>
+        <h4 className='ContextH4Tag'>Creating a Context: <br />
           First, you need to create a context using the createContext function. <br />
           This function returns two components: a Provider and a Consumer.</h4> <br /> <br />
 
@@ -36,7 +36,7 @@ function MyComponent() {
           {`const MyContext = React.createContext();`}
         </SyntaxHighlighter>
 
-        <h4>Providing Data: <br />
+        <h4 className='ContextH4Tag'>Providing Data: <br />
           Wrap your application or a part of your component tree with the Provider component. <br />
           This is where you'll provide the data that you want to share with other components. <br />
           You do this by passing a value prop to the Provider.</h4> <br /> <br />
@@ -47,7 +47,7 @@ function MyComponent() {
 </MyContext.Provider>`}
         </SyntaxHighlighter>
 
-        <h4>Consuming Data: <br />
+        <h4  className='ContextH4Tag'>Consuming Data: <br />
           Inside any functional component that's a descendant of the Provider, <br />
           you can use the useContext hook to access the data from the context.</h4> <br /> <br />
 

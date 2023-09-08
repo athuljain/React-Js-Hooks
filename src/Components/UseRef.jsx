@@ -30,14 +30,14 @@ export default function UseRef() {
         </p>
       </div>
 
-      <div>
-        <p>
+      <div className="RefExample">
+        <p className="ExamplePtag">
           Type : <input ref={myRef} type="text" />
         </p>
       </div>
 
-      <div>
-        <p>code :</p>
+      <div className="CodeDiv">
+        <p className="codePtag">code :</p>
       </div>
 
       <SyntaxHighlighter language="javascript" style={dracula}>
