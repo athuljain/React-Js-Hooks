@@ -32,7 +32,8 @@ export default function MainPage(){
              making it a popular choice for building modern web applications.</p>
 
 
-            <h3 className="mainPageSubH3"> Hooks make it easier to write and maintain React code, as they allow you to reuse stateful logic without changing your component's structure into a class.</h3>
+            <h3 className="mainPageSubH3"> Hooks make it easier to write and maintain React code,<br />
+             as they allow you to reuse stateful logic without changing your component's structure into a class.</h3>
             </div>
 
             <div className="HooksBtns">
