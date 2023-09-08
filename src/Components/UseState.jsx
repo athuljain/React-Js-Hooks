@@ -1,4 +1,6 @@
 import { useState } from "react"
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 
 export default function UseState(){
 
@@ -31,8 +33,49 @@ export default function UseState(){
             <button className="decrementBtn" onClick={Decrement} >Decrement</button>
             <button className="resetBtn" onClick={Reset} >Reset</button>
 
-``
+
+                <div>
+
+
+              <SyntaxHighlighter language="javascript" style={dracula}>
+              {`  import { useState } from "react"
+
+export default function UseState(){
+
+    const [count , setCount]= useState(0)
+
+    function Increment(){
+        setCount(count + 1)
+    }
+    function Decrement(){
+        if(count > 0){
+        setCount(count - 1)
+        }
+    }
+    function Reset(){
+        setCount(0)
+    }
+    return(
+
+<div>
+<h2 className="Count-heading">Count :{count} </h2>
+
+<button className="incrementBtn" onClick={Increment} >Increment</button>
+<button className="decrementBtn" onClick={Decrement} >Decrement</button>
+<button className="resetBtn" onClick={Reset} >Reset</button>
+</div>
+
+    `}
+     </SyntaxHighlighter>
+
+                </div>
+
 
         </div>
+
+
+
+
+
     )
 }
