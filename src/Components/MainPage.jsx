@@ -13,6 +13,9 @@ export default function MainPage(){
     function UseEffectPage(){
         navigate('/useEffect')
     }
+    function UseContextPage(){
+        navigate('/useContext')
+    }
 
     return(
         <div className="mainpage-container">
@@ -32,6 +35,7 @@ export default function MainPage(){
             <div className="HooksBtns">
                 <button  onClick={UseStatePage} >useState</button>
                 <button  onClick={UseEffectPage} >useEffect</button>
+                <button  onClick={UseContextPage} >useContext</button>
             </div>
 
 
