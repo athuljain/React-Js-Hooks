@@ -2,7 +2,7 @@
 import React from 'react';
 import { MDBFooter,  MDBIcon } from 'mdb-react-ui-kit';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import "../Styles/Footer.css"
 
 
 

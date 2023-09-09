@@ -1,0 +1,29 @@
+/* Style the footer container */
+.MDBFooter {
+    background-color: #f8f9fa; /* Light background color */
+    color: #6c757d; /* Text color */
+    padding: 1rem;
+  }
+  
+  /* Style the section containing social media icons */
+  .MDBFooter .border-bottom {
+    border-bottom: 1px solid #ccc; /* Add a border below the section */
+    padding-bottom: 1rem; /* Add some spacing below the section */
+  }
+  
+  /* Style the social media icons */
+  .MDBFooter .text-reset {
+    font-size: 24px; /* Adjust the icon size */
+  }
+  
+  /* Style the copyright text */
+  .MDBFooter .text-reset.fw-bold {
+    color: #343a40; /* Darker text color for the copyright */
+    text-decoration: none; /* Remove underlines from the link */
+  }
+  
+  /* Style the hover effect for social media icons */
+  .MDBFooter .text-reset:hover {
+    color: #007bff; /* Change the color on hover */
+  }
+  
