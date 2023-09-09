@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import "../Styles/MainPage.css";
+import Footer from "./Footer";
 
 export default function MainPage() {
   const navigate = useNavigate();
@@ -49,6 +50,7 @@ export default function MainPage() {
         <button onClick={UseContextPage}>useContext</button>
         <button onClick={UseRefPage}>useRef</button>
       </div>
+      < Footer />
     </div>
   );
 }
