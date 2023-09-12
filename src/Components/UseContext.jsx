@@ -2,6 +2,7 @@ import React from 'react';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import "../Styles/UseContext.css"
+import Header from './Header';
 
 
 
@@ -18,6 +19,7 @@ function MyComponent() {
 
   return (
     <div className='ContextContainer'>
+      < Header />
       <div className='SubContainerContext'>
         <h1 className='contextHtag'>useContext Hook</h1>
         <p className='contextPtag'>The useContext hook is a feature provided by React,<br />

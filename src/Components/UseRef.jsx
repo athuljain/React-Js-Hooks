@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import Header from "./Header";
 
 export default function UseRef() {
   const myRef = useRef(null);
@@ -11,6 +12,9 @@ export default function UseRef() {
 
   return (
     <div>
+
+      <Header />
+
       <div className="sub-container">
         <h1 className="main-heading">useRef Hook</h1>
         <p className="main-paragraph">

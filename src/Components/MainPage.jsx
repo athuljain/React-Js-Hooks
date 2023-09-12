@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "../Styles/MainPage.css";
 import Footer from "./Footer";
+import Header from "./Header";
 
 export default function MainPage() {
   const navigate = useNavigate();
@@ -21,6 +22,7 @@ export default function MainPage() {
 
   return (
     <div className="mainpage-container">
+      < Header />
       <div className="mainPage-sub-container">
         <h1 className="mainPageHEading">React js Hooks</h1>
       </div>

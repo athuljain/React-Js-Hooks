@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import Header from "./Header";
 
 export default function UseState() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ export default function UseState() {
   }
   return (
     <div className="main-container">
+      <Header />
       <div className="sub-container">
         <h1 className="main-heading">useState Hook</h1>
         <p className="main-paragraph">

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "../Styles/UseEffect.css"
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import Header from './Header';
 
 
 export default function UseEffect() {
@@ -16,6 +17,9 @@ export default function UseEffect() {
 
     <div>
         <div className="sub-container">
+
+        < Header />
+
             <h1 className="main-heading">useEffect Hook</h1>
             <p className="main-paragraph"> The useEffect hook in React is a built-in hook that allows you to perform side effects in your functional components.<br /> 
             Side effects are operations that occur in a React component, such as data fetching, DOM manipulation, setting up subscriptions, or anything that involves interactions with the outside world.</p>
