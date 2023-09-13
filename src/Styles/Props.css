@@ -1,0 +1,48 @@
+/* Props.css */
+
+.main-container {
+    padding: 20px;
+  }
+  
+  .main-heading {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .main-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .sub-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Add more styles as needed */
+  
+  /* Styling for code block */
+  pre {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+  }
+  
+  /* Styling for code block container */
+  code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+  }
+  
+  /* Styling for the code language */
+  .language-javascript {
+    color: #a9dc76;
+  }
+  

@@ -2,25 +2,24 @@
 import Header from "./Header";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import "../Styles/Props.css"
 
 export default function Props(props){
     return(
         
             <div className="main-container">
       <Header />
-      <div className="sub-container">
-        <h1 className="main-heading">useProps Hook</h1>
-        <p className="main-paragraph">
-          {" "}
-          In React, you can pass data to another component by providing props when you render <br />
-           the child component within the parent component. <br />
-            Here's a step-by-step guide on how to pass data from a parent component to a child component using props:
-         
-        </p>
-
-
-      </div>
-            <div>
+      <div className="main-container">
+    <Header />
+    <div className="sub-container">
+      <h1 className="main-heading">useProps Hook</h1>
+      <p className="main-paragraph">
+        In React, you can pass data to another component by providing props when you render <br />
+        the child component within the parent component. <br />
+        Here's a step-by-step guide on how to pass data from a parent component to a child component using props:
+      </p>
+    </div>
+            
             <div>
       <h2>Props receive</h2>
       <p>Data received from Parent:  {props.data}</p>
