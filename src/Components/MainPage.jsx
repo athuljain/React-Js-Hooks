@@ -19,6 +19,9 @@ export default function MainPage() {
   function UseRefPage() {
     navigate("/useRef");
   }
+  function PropsPage(){
+    navigate('/useProps')
+  }
 
   return (
     <div className="mainpage-container">
@@ -51,6 +54,7 @@ export default function MainPage() {
         <button onClick={UseEffectPage}>useEffect</button>
         <button onClick={UseContextPage}>useContext</button>
         <button onClick={UseRefPage}>useRef</button>
+        <button onClick={PropsPage}>Props</button>
       </div>
       < Footer />
     </div>
