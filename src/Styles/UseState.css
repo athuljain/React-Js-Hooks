@@ -1,0 +1,108 @@
+/* UseState.css */
+
+/* Styling for the main container */
+.main-container {
+    padding: 20px;
+  }
+  
+  /* Styling for the sub-container */
+  .sub-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .sub-container .main-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .sub-container .main-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Styling for the Counter App section */
+  .sub-heading {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .Count-heading {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .incrementBtn,
+  .decrementBtn,
+  .resetBtn {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .incrementBtn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .incrementBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  .decrementBtn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .decrementBtn:hover {
+    background-color: #c82333;
+  }
+  
+  .resetBtn {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .resetBtn:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Styling for the CodeDiv container */
+  .stateCodediv {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .stateCodediv .StateCodePTag {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Additional styles for SyntaxHighlighter */
+  .stateCodediv pre {
+    margin: 0;
+  }
+  
+  .stateCodediv code {
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+  }
+  
+  /* Additional styles for Footer (assuming it follows the same structure as the previous example) */
+  .footer-container {
+    padding: 20px;
+  }
+  

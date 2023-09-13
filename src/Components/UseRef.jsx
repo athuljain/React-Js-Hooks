@@ -3,6 +3,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Header from "./Header";
 import Footer from "./Footer";
+import "../Styles/UseRef.css"
 
 export default function UseRef() {
   const myRef = useRef(null);

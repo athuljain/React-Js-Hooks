@@ -16,29 +16,29 @@ export default function Footer(){
             <span>Get connected with us on social networks:</span>
           </div>
           <div className='social-links'>
-  <a href='https://www.facebook.com/' className='me-4 text-reset'>
+  {/* <a href='https://www.facebook.com/' className='me-4 text-reset'>
     <MDBIcon color='secondary' fab icon='facebook-f' />
-  </a>
-  <a href='https://twitter.com/' className='me-4 text-reset'>
+  </a> */}
+  {/* <a href='https://twitter.com/' className='me-4 text-reset'>
     <MDBIcon color='secondary' fab icon='twitter' />
-  </a>
-  <a href='https://www.google.com/' className='me-4 text-reset'>
+  </a> */}
+  <a href='https://athuljainkj2@gmail.com/' className='me-4 text-reset'>
     <MDBIcon color='secondary' fab icon='google' />
   </a>
   <a href='https://www.instagram.com/' className='me-4 text-reset'>
     <MDBIcon color='secondary' fab icon='instagram' />
   </a>
-  <a href='https://www.linkedin.com/' className='me-4 text-reset'>
+  <a href='https://www.linkedin.com/in/athul-jain-5382b0215/' className='me-4 text-reset'>
     <MDBIcon color='secondary' fab icon='linkedin' />
   </a>
-  <a href='https://github.com/' className='me-4 text-reset'>
+  <a href='https://github.com/athuljain' className='me-4 text-reset'>
     <MDBIcon color='secondary' fab icon='github' />
   </a>
 </div>
         </section>
         <div className='text-center p-4 footer-down'>
           © 2023 Copyright:
-          <a className='text-reset fw-bold footer-copy' href='/'>
+          <a className='text-reset fw-bold footer-copy' href='https://github.com/athuljain'>
             Athul jain
           </a>
         </div>

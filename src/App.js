@@ -7,6 +7,7 @@ import UseEffect from './Components/UseEffect';
 import UseContext from './Components/UseContext';
 import UseRef from './Components/UseRef';
 import Props from './Components/Props';
+import "./Styles/GlobalStyle.css"
 
 function App() {
 

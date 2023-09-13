@@ -6,13 +6,13 @@
   
   .contextHtag {
     font-size: 24px;
-    background-color: #007bff;
+    background-color: #a7cff9;
   color: #fff;
   padding: 10px;
   border-radius: 10px;
   }
   .contextHtag:hover {
-    background-color: #0056b3;
+    background-color: #86abd3;
     cursor: pointer;
     
     transform: scale(1.05);
@@ -27,13 +27,13 @@
  
   .ContextH4Tag {
     font-size: 18px;
-    color: #007bff;
+    color: #f8fafc;
     margin-top: 20px;
   }
   
  
   .ContextH4Tag:hover {
-    color: #0056b3;
+    color: #e3eaf1;
     cursor: pointer;
     transform: scale(1.05);
     transition: color 0.3s, transform 0.3s;

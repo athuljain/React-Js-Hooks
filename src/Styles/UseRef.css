@@ -1,0 +1,71 @@
+/* RefExample.css */
+
+/* Styling for the sub-container */
+.sub-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .sub-container .main-heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .sub-container .main-paragraph {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+  }
+  
+  /* Styling for the RefExample container */
+  .RefExample {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .RefExample .ExamplePtag {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .RefExample input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the CodeDiv container */
+  .CodeDiv {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .CodeDiv .codePtag {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Additional styles for SyntaxHighlighter */
+  .CodeDiv pre {
+    margin: 0;
+  }
+  
+  .CodeDiv code {
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+  }
+  
