@@ -3,6 +3,7 @@ import "../Styles/UseEffect.css"
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import Header from './Header';
+import Footer from './Footer';
 
 
 export default function UseEffect() {
@@ -63,7 +64,9 @@ return (
 
     </div>
 
-  
+  <div>
+    <Footer />
+  </div>
 
     </div>
   );

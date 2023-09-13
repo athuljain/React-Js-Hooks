@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function UseState() {
   const [count, setCount] = useState(0);
@@ -79,6 +80,9 @@ export default function UseState(){
 
     `}
         </SyntaxHighlighter>
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );

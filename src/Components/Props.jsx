@@ -3,12 +3,12 @@ import Header from "./Header";
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import "../Styles/Props.css"
+import Footer from "./Footer";
 
 export default function Props(props){
     return(
         
-            <div className="main-container">
-      <Header />
+          
       <div className="main-container">
     <Header />
     <div className="sub-container">
@@ -19,7 +19,7 @@ export default function Props(props){
         Here's a step-by-step guide on how to pass data from a parent component to a child component using props:
       </p>
     </div>
-            
+            <div>
             <div>
       <h2>Props receive</h2>
       <p>Data received from Parent:  {props.data}</p>
@@ -75,6 +75,9 @@ create the child component  that will receive the data as props and use it.
     </div>
     `}
 </SyntaxHighlighter>
+<div>
+    <Footer />
+</div>
 
         </div>
     )

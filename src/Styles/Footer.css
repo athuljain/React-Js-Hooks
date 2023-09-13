@@ -1,29 +1,78 @@
-/* Style the footer container */
-.MDBFooter {
-    background-color: #f8f9fa; /* Light background color */
-    color: #6c757d; /* Text color */
-    padding: 1rem;
+/* Footer.css */
+
+/* Footer container */
+.mdb-footer {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  padding: 1rem 0;
+}
+
+
+
+
+/* Copyright section */
+.mdb-footer .copyright {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 1rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (min-width: 992px) {
+  .mdb-footer .social-links {
+    justify-content: flex-start;
+    margin-bottom: 0;
   }
   
-  /* Style the section containing social media icons */
-  .MDBFooter .border-bottom {
-    border-bottom: 1px solid #ccc; /* Add a border below the section */
-    padding-bottom: 1rem; /* Add some spacing below the section */
+  .mdb-footer .social-links .me-5 {
+    margin-right: 1rem;
   }
+}
+.footer-container{
+  background-color: #0c2b4d;
+  margin-top: 60px;
+    border-radius: 10px
+}
+.get-connect{
+  font-size: 15px;
+    padding: 20px;
+    color: white;
+}
+
+.footer-down{
+  color: wheat;
+  font-size: 11px;
+  padding: 10px
+}
+.footer-copy{
+  color: wheat;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* Footer.css */
+
+/* Social media links section */
+.social-links {
   
-  /* Style the social media icons */
-  .MDBFooter .text-reset {
-    font-size: 24px; /* Adjust the icon size */
-  }
-  
-  /* Style the copyright text */
-  .MDBFooter .text-reset.fw-bold {
-    color: #343a40; /* Darker text color for the copyright */
-    text-decoration: none; /* Remove underlines from the link */
-  }
-  
-  /* Style the hover effect for social media icons */
-  .MDBFooter .text-reset:hover {
-    color: #007bff; /* Change the color on hover */
-  }
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: #007bff; /* Change the color as needed */
+  margin-right: 20px; /* Adjust the spacing between icons */
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social-links a:last-child {
+  margin-right: 0; /* Remove margin-right from the last link */
+}
+
+.social-links a:hover {
+  color: #0056b3; /* Change the hover color as needed */
+}

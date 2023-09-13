@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export default function UseRef() {
   const myRef = useRef(null);
@@ -68,6 +69,10 @@ export default function UseRef() {
                      <div>
                   </div> `}
       </SyntaxHighlighter>
+      <div>
+        <Footer />
+      </div>
     </div>
+    
   );
 }

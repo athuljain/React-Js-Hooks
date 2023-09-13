@@ -3,6 +3,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import "../Styles/UseContext.css"
 import Header from './Header';
+import Footer from './Footer';
 
 
 
@@ -57,6 +58,9 @@ function MyComponent() {
         <SyntaxHighlighter language="javascript" style={dracula}>
           {codeExample}
         </SyntaxHighlighter>
+      </div>
+      <div>
+        <Footer />
       </div>
 
       </div>
