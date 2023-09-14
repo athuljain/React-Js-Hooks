@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import "../Styles/UseEffect.css"
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { dracula } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import Header from './Header';
-import Footer from './Footer';
-
+import React, { useState, useEffect } from "react";
+import "../Styles/UseEffect.css";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { dracula } from "react-syntax-highlighter/dist/esm/styles/prism";
+import Header from "./Header";
+import Footer from "./Footer";
 
 export default function UseEffect() {
   const [count, setCount] = useState(0);
@@ -14,35 +13,34 @@ export default function UseEffect() {
   });
 
   return (
-
-
     <div>
-        <div className="sub-container">
+      <div className="sub-container">
+        <Header />
 
-        < Header />
-
-            <h1 className="main-heading">useEffect Hook</h1>
-            <p className="main-paragraph"> The useEffect hook in React is a built-in hook that allows you to perform side effects in your functional components.<br /> 
-            Side effects are operations that occur in a React component, such as data fetching, DOM manipulation, setting up subscriptions, or anything that involves interactions with the outside world.</p>
-
-            </div>
-
-        <div>
-
-
-      <p className='EffectSub'>You clicked {count} times</p>
-      <button className='Effect-Btn' onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+        <h1 className="main-heading">useEffect Hook</h1>
+        <p className="main-paragraph">
+          {" "}
+          The useEffect hook in React is a built-in hook that allows you to
+          perform side effects in your functional components.
+          <br />
+          Side effects are operations that occur in a React component, such as
+          data fetching, DOM manipulation, setting up subscriptions, or anything
+          that involves interactions with the outside world.
+        </p>
       </div>
 
+      <div>
+        <p className="EffectSub">You clicked {count} times</p>
+        <button className="Effect-Btn" onClick={() => setCount(count + 1)}>
+          Click me
+        </button>
+      </div>
 
-    <div>
+      <div>
+        <p className="Code">Code :</p>
 
-<p className='Code'>Code :</p>
-
-<SyntaxHighlighter language="javascript" style={dracula}>
-{`
+        <SyntaxHighlighter language="javascript" style={dracula}>
+          {`
     const [count, setCount] = useState(0);
 
 useEffect(() => {
@@ -60,14 +58,12 @@ return (
     </div>
   
     `}
-    </SyntaxHighlighter>
+        </SyntaxHighlighter>
+      </div>
 
-    </div>
-
-  <div>
-    <Footer />
-  </div>
-
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

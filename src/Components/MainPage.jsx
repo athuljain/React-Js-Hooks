@@ -19,24 +19,27 @@ export default function MainPage() {
   function UseRefPage() {
     navigate("/useRef");
   }
-  function PropsPage(){
-    navigate('/useProps')
+  function PropsPage() {
+    navigate("/useProps");
   }
 
   return (
     <div className="mainpage-container">
-      < Header />
+      <Header />
       <div className="mainPage-sub-container">
         <h1 className="mainPageHEading">React js Hooks</h1>
       </div>
       <div className="mainPageSubDiv">
         <p className="mainPageSubParagraph">
           React.js, often referred to as React, is an open-source JavaScript
-          library for building user interfaces. <br />
+          library for building user interfaces.
+          <br />
           It was developed by Facebook and is commonly used for creating web
-          applications with dynamic and interactive user interfaces. <br />
+          applications with dynamic and interactive user interfaces.
+          <br />
           React allows developers to build reusable UI components and
-          efficiently update the user interface when data changes, <br />
+          efficiently update the user interface when data changes,
+          <br />
           making it a popular choice for building modern web applications.
         </p>
 
@@ -56,7 +59,7 @@ export default function MainPage() {
         <button onClick={UseRefPage}>useRef</button>
         <button onClick={PropsPage}>Props</button>
       </div>
-      < Footer />
+      <Footer />
     </div>
   );
 }
